@@ -1,21 +1,14 @@
 
-## Multiple-server-with-infinite-capacity-
-
-## Name : Abhishek Kannan M
-
-## REGISTER NUMBER : 212224040007
-# date: 16/3/26
-
+# Multiple server with infinite capacity - (M/M/c):(oo/FIFO)
+# Name: Abhishek Kannan M
+# Reg no: 212224040007
 ## Aim :
-
 To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 10 seconds, serivice time of two lathe machine follow exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
 
 ## Software required :
-
 Visual components and Python
 
 ## Theory:
-
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
 
 ![image](https://user-images.githubusercontent.com/103921593/203238035-1c8109bc-cbf2-4c77-baea-c5b682a752ef.png)
@@ -29,13 +22,9 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 
 ## Experiment:
 
-![image](https://github.com/user-attachments/assets/8224fba8-d758-4665-a06e-bc4cba2116aa)
-![image](https://github.com/user-attachments/assets/153d7d96-e10d-4440-955a-ebfe156f4d3e)
 
-
-## Program :
-
-```python
+## Program
+```
 # Getting Inputs
 ArrivalTime = float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ServiceTime = float(input("Enter the mean inter service time of Lathe Machine (in secs): "))
@@ -78,25 +67,14 @@ if Rho < 1:
     print("Probability that the system is empty : %0.2f" % (1 - Rho))
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
-
 ```
+
+
+
 ## Output :
+<img width="740" height="289" alt="image" src="https://github.com/user-attachments/assets/751fbd5b-054b-4be9-8b90-bc43398d7708" />
 
-```
---------------------------------------------------------------
-Multiple Server with Infinite Capacity - (M/M/c):(∞/FIFO)
---------------------------------------------------------------
-The mean arrival rate per second : 0.10
-The mean service rate per second : 0.12
-Average number of objects in the system : 0.95
-Average number of objects in the conveyor :  0.15
-Average waiting time of an object in the system : 9.53 secs
-Average waiting time of an object in the conveyor : 1.52 secs
-Probability that the system is busy : 0.40
-Probability that the system is empty : 0.60
---------------------------------------------------------------
-```
 
-## Result :
 
+## Result : 
 Thus the program is implemented and executed successfully.
